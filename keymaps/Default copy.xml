@@ -1,4 +1,5 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="ChangesView.Diff" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -7,11 +8,41 @@
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.CloneRow" />
+  <action id="DatabaseView.CopyAction" />
+  <action id="DecrementWindowHeight" />
+  <action id="Diff.ShowDiff" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
   <action id="EditorSelectWord" />
+  <action id="FileChooser.GotoDesktop" />
   <action id="ImportSettings">
     <keyboard-shortcut first-keystroke="ctrl #100007c" />
   </action>
+  <action id="IncrementWindowHeight" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
   </action>
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="SendEOF" />
+  <action id="XDebugger.CopyWatch" />
+  <action id="openAssertEqualsDiff" />
 </keymap>
